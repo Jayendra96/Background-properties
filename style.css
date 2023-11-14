@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    max-width: 100vw;
+    background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.5));
+    padding: 2%;
+}
+
+.navheading{
+    display: inline-block;
+    color: aliceblue;
+    margin-inline: 6%;
+}
+.home{
+    background-color: white;
+    color: black;
+    padding: 0.5% 1.5%;
+}
+
+.firstimg{
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.images{
+    height: 500px;
+    width: 100%;
+}
+
+.images  img{
+    margin: 2%;
+    width: 29%;
+    height: 90%;
+}
+
+.paraimage{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding: 2%;
+}
+.paraimage p{
+    width: 45%;
+    color: white;
+    display: inline-block;
+}
+
+.paraimage img{
+    width: 45%;
+    margin: 1%;
+    display: inline-block;
+}
